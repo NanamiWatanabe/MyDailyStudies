@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Adapting Images</title>
+</head>
+<body>
+    <h1>Lorem Ipsum</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium excepturi molestiae tenetur nostrum vel dolorem illo? Earum quos ipsa dolorum distinctio accusantium! Est excepturi enim adipisci dolore architecto delectus fugiat!</p>
+    <picture>
+        <source media="(max-width:750px)" srcset="img/300x300.png" type="image/png">
+        <source media="(max-width:1050px)" srcset="img/700x700.png" type="image/png">
+        <img src="img/1000x1000.png" alt="Image with a size of 1000x1000">
+    </picture>
+</body>
+</html>
